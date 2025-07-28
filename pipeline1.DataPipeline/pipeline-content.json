@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "activities": [
+      {
+        "name": "Fail1",
+        "type": "Fail",
+        "dependsOn": [],
+        "typeProperties": {
+          "message": "pipeline1",
+          "errorCode": "500"
+        }
+      }
+    ]
+  }
+}
