@@ -1,0 +1,26 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Dataflow 1",
+  "queryGroups": [],
+  "documentLocale": "en-US",
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "f4bd2660-24f1-4e66-be05-6fbecffcb2d9",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "CustomerSource": {
+      "queryId": "0b17fdfa-c098-49f3-aa83-15caf1c6dd22",
+      "queryName": "CustomerSource"
+    }
+  },
+  "connections": [
+    {
+      "path": "Warehouse",
+      "kind": "Warehouse",
+      "connectionId": "{\"ClusterId\":\"84c2f0a9-97ce-4826-8182-b0fcd3bfbaf0\",\"DatasourceId\":\"5303655f-7ba6-43cb-a4fe-f5c664b906f9\"}"
+    }
+  ]
+}
